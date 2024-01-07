@@ -8,7 +8,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=sfc-emo-act
-      - MYSQL_USER=admin
+      - MYSQL_USER=user
       - MYSQL_PASSWORD=password
     command: --default-authentication-plugin=mysql_native_password
     restart: always
