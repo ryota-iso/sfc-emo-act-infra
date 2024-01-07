@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!mysql/
+!mysql/docker-compose.yml
+
+!redis/
+!redis/docker-compose.yml
